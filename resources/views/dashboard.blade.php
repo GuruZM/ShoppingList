@@ -11,16 +11,17 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-10">
-                <!--<x-jet-welcome />-->
+     
                   <table class = "w-full whitespace-nowrap">
-                      <tr class = "text-left font-medium font-body mb-4">
+                      <tr class = "text-left font-medium font-body mb-4  shadow-sm">
                             <th class = "px-6 pt-6 pb-4">Item </th>
                             <th class = "px-6 pt-6 pb-4">Done</th>
                             <th class = "px-6 pt-6 pb-4">Action </th>
                       </tr>
-                      <tr>
-                          <td></td>
-                      </tr>
+               
+                          @livewire('item', ['id'=>1 ,'name'=>'Tomato', 'bought'=>false])
+                          @livewire('item',['id'=>2 ,'name'=>'Onion', 'bought'=>false])
+                          @livewire('item',['id'=>3 ,'name'=>'Ubunga', 'bought'=>true])
 
                   </table>
             </div>
