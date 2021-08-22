@@ -1557,6 +1557,12 @@ select {
 .p-4 {
 	padding: 1rem;
 }
+.p-8 {
+	padding: 2rem;
+}
+.p-5 {
+	padding: 1.25rem;
+}
 .px-4 {
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -1612,6 +1618,10 @@ select {
 .py-10 {
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
+}
+.px-10 {
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
 }
 .pt-6 {
 	padding-top: 1.5rem;
@@ -1696,6 +1706,9 @@ select {
 }
 .font-semibold {
 	font-weight: 600;
+}
+.font-bold {
+	font-weight: 700;
 }
 .uppercase {
 	text-transform: uppercase;
